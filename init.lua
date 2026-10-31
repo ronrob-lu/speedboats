@@ -363,7 +363,7 @@ local function create_boat_entity(bdef)
 			end
 
 			-- Lower eye offset for cockpit perspective
-			clicker:set_eye_offset({x = 0, y = -1.5, z = 0}, {x = 0, y = -1.5, z = 0})
+			clicker:set_eye_offset({x = 0, y = 6.5, z = 0}, {x = 0, y = -1.5, z = 0})
 			clicker:set_look_horizontal(self.object:get_yaw())
 
 			-- Create cockpit HUD gauge
